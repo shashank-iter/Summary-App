@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Summary</title>
+    <link rel="stylesheet" href="summary.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/index.js"></script>
+  </head>
+  <body>
+    <div>
+      <div id="content">
+        <div id="title-text">Get your Summary Here</div>
+        <div class="info-text">Enter Your Text:</div>
+      </div>
+      <div class="text-enter">
+        <textarea
+          name="text"
+          id="text"
+          cols="54"
+          rows="10"
+          placeholder="Enter your text here"
+        ></textarea>
+      </div>
+      <div id="content">
+<button class="btn-container" onclick="getSummary()">Summarize</button>
+          <div class="info-text">Your Summary:</div>
+      </div>
+      <div class="text-enter" contenteditable="false" spellcheck="false" id="summary"></div>
+    </div>
+  </body>
+</html>

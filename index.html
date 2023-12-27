@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="styleSheet" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.dots.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.clouds.min.js"></script>
+
+    <title>Summary</title>
+  </head>
+  <body>
+    <div id="bg">
+      <div class="title-box" >
+        <div id="title-text">Summary Ninja</div>
+        <h2>Are you too lazy to read long articles 👀</h2>
+        <h2>Don't worry we got you covered 😎</h2>
+      </div>
+
+      <div class="instruction">
+        <div>
+            1. Copy the text of the article you want to summarize
+        </div>
+        <div>
+            2. Paste the text in the box below
+        </div>
+        <div>
+            3. Click on the summarize button
+        </div>
+      </div>
+      <div class="btn-container">
+        <a href="summarize.html">
+          <div class="button">Lets Start</div>
+        </a>
+
+      </div>
+    </div>
+  </body>
+  <script>
+    VANTA.CLOUDS({
+      el: "#bg",
+      mouseControls: true,
+      
+    });
+  </script>
+</html>
